@@ -17,6 +17,7 @@ Thumbs.db
 /build/
 /coverage/
 phpunit.xml
+.phpunit.result.cache
 
 # Temporary files
 /tmp/
