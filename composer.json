@@ -1,0 +1,31 @@
+{
+    "name": "lack-project/lack-mdmail",
+    "description": "A PHP library for sending emails directly to mail servers using PHPMailer",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LackProject\\MdMail\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LackProject\\MdMail\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "authors": [
+        {
+            "name": "lack-project",
+            "email": "info@lack-project.org"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
